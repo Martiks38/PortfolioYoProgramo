@@ -1,0 +1,12 @@
+.header {
+  height: 4rem;
+  padding: 0.5rem 3rem;
+  background-color: var(--color-dataBar-grey);
+  position: absolute;
+  top: 0;
+  width: calc(100% - var(--width-dataBar));
+
+  &__logo {
+    height: 100%;
+  }
+}

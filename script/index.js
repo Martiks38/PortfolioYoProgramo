@@ -1,9 +1,13 @@
 import { observerPage } from './observer.js'
 import { copyData } from './copy.js'
 import { handleMenu } from './handleMenu.js'
+import { handleLogin } from './login.js'
 import { $ } from './utils/index.js'
 
-document.addEventListener('DOMContentLoaded', observerPage)
+document.addEventListener('DOMContentLoaded', () => {
+  observerPage()
+  handleLogin()
+})
 document.addEventListener('click', (event) => {
   let target = event.target
 

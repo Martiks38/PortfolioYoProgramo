@@ -1,0 +1,56 @@
+.login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: auto;
+  padding: 2rem;
+  background-color: var(--color-background-tab);
+  border-radius: 6px;
+  border: solid var(--color-border-login) 3px;
+  color: var(--color-white);
+  font-family: 'Poppins', Helvetica, Verdana, Arial;
+  letter-spacing: 1px;
+  text-align: center;
+  transform: translate(-25%, -50%);
+
+  &__form > button {
+    display: block;
+    padding: 0.4rem 1.2rem;
+    margin: 1rem auto 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: 'Radio Canada', Helvetica, Verdana, Arial;
+  }
+
+  &__form > label,
+  &__form > input {
+    margin-bottom: 0.6rem;
+  }
+
+  &__form > label {
+    display: block;
+    font-weight: 600;
+  }
+
+  &__form > input {
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: solid var(--color-black) 2px;
+    font-size: 1.1rem;
+    font-family: 'Radio Canada', Helvetica, Verdana, Arial;
+  }
+
+  &__img {
+    display: block;
+    width: 10vw;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.hidden {
+  display: none;
+}
