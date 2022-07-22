@@ -4,6 +4,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 10rem;
   height: 100vh;
+  text-align: center;
 
   &__name {
     font-size: 1.8rem;
@@ -11,7 +12,6 @@
 
   &__perfil {
     font-size: 1.4rem;
-    text-align: center;
   }
 }
 
