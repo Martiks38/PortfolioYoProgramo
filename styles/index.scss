@@ -58,21 +58,25 @@ main {
 }
 
 @media screen and (max-width: 56rem) {
-  body {
-    grid-template-columns: 1fr;
-  }
-
-  .section__theme {
-    min-height: auto;
-  }
-
   .barData {
     position: fixed;
     left: -100%;
   }
 
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    width: 100%;
+  }
+
   .menu {
     visibility: visible;
+  }
+
+  .section__theme {
+    min-height: auto;
   }
 }
 
